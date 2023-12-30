@@ -1,0 +1,25 @@
+/* Add custom CSS to set the height of the carousel */
+#carouselExampleCaptions {
+  height: 500px; /* Set your desired carousel height here */
+}
+
+/* Set the height of the carousel images */
+#carouselExampleCaptions img {
+  height: 500px; /* Use 100% to fill the carousel height */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire carousel */
+}
+.navbar-brand img {
+  width: 60px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%; /* Set the width of the newsletter input on larger screens */
+  }
+}
+
+/* Add this CSS to make all card images the same height */
+.card-img-top {
+  object-fit: cover;
+  height: 200px; /* Adjust the height as needed */
+}
